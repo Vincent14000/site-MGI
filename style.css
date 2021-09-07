@@ -1,7 +1,8 @@
 
 html{
-
-	height: 1000px;
+	height: 1000px ;
+	
+	
 }
 
 body{
@@ -31,14 +32,14 @@ body{
 }
 
 #navigation a{
-	background:url(images/separateur.jpg) no-repeat right ;
+	
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 .presentation,.usinage,.tour,.prg,.controle,.real{
-	
+background:url(images/separateur.jpg) no-repeat right;	
 color: white;
 text-align: center;
 font-size: 0.5em;
