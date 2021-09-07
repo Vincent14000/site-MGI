@@ -1,0 +1,107 @@
+
+html{
+
+	height: 1000px;
+}
+
+body{
+	background: url('images/fond_accueil.jpg');
+	background-position: center ;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 	
+
+
+}
+
+#bloc_page{
+	position: relative;
+	width: 900px;
+	padding-top: 74px;
+	margin: 250px auto ;	
+	font-family: Verdana, Arial, helvetica, sans-serif ;
+}
+
+#navigation{
+
+	display: flex;
+	background:url(images/fond_menu.gif) ;
+	justify-content: space-around;
+	width: 100%;
+	height: 30px;
+}
+
+#navigation a{
+	background:url(images/separateur.jpg) no-repeat right ;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.presentation,.usinage,.tour,.prg,.controle,.real{
+	
+color: white;
+text-align: center;
+font-size: 0.5em;
+width: 12%;
+margin: auto;
+font-family:  Arial, Verdana, helvetica, sans-serif ;
+}
+
+section{
+
+	display: flex;
+	position: relative;
+}
+
+section img{
+
+	flex: 1.5;
+	width: 20%;
+	height: 20%;
+}
+
+section p{
+	flex: 2;
+	color: white;
+	height: 200px;
+	font-size: 1.5em;
+	font-weight: lighter;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+strong{
+
+	font-size: 1.5em;
+}
+
+#contact{
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.6em;
+	color: #92c3e1;
+	margin-top: 10px;
+}
+
+#contact p{
+	text-decoration: none;
+	color: #92c3e1;
+}
+
+.contact1{
+	
+	color: #60acdb;
+	
+}
+
+.contact2{
+	text-decoration: none;
+	color: #92c3e1;
+}
+
+footer{
+
+display: flex;
+justify-content: flex-end;
+}
