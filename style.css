@@ -1,6 +1,6 @@
 
 html{
-	height: 1000px ;
+	height: 850px ;
 	
 	
 }
@@ -17,9 +17,9 @@ body{
 #bloc_page{
 	position: relative;
 	width: 900px;
-	padding-top: 74px;
-	margin: 250px auto ;	
+	margin: 245px auto ;	
 	font-family: Verdana, Arial, helvetica, sans-serif ;
+
 }
 
 #navigation{
@@ -36,14 +36,27 @@ body{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+
 }
 
-.usinage,.tour,.prg,.controle,.real{
+.usinage,.prg,.controle,.real{
 background: url(images/separateur.jpg) no-repeat;	
+margin-top: 0px;
+margin-bottom: 0px;
 color: white;
 text-align: center;
 font-size: 0.7em;
+padding-top: 10px;
+width: 16%;
+font-family:  Arial, Verdana, helvetica, sans-serif ;
+}
+
+.tour{
+background: url(images/separateur.jpg) no-repeat;	
 margin: auto;
+color: white;
+text-align: center;
+font-size: 0.7em;
 width: 16%;
 font-family:  Arial, Verdana, helvetica, sans-serif ;
 }
@@ -76,7 +89,7 @@ section p{
 	flex: 2;
 	color: white;
 	height: 200px;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-weight: lighter;
 	font-style: italic;
 	padding-left: 30px;
@@ -93,7 +106,7 @@ strong{
 	justify-content: space-between;
 	font-size: 0.6em;
 	color: #92c3e1;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 #contact p{
@@ -116,4 +129,5 @@ footer{
 
 display: flex;
 justify-content: flex-end;
+
 }
