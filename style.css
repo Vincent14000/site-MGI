@@ -1,7 +1,6 @@
 
 html{
-	height: 850px ;
-	
+	height: 880px ;
 	
 }
 
@@ -10,13 +9,14 @@ body{
 	background-position: center ;
     background-attachment: scroll;
     background-repeat: no-repeat; 	
+    background-size: 110%;
 
 
 }
 
 #bloc_page{
 	position: relative;
-	width: 900px;
+	width: 1000px;
 	margin: 245px auto ;	
 	font-family: Verdana, Arial, helvetica, sans-serif ;
 
@@ -30,6 +30,14 @@ body{
 	width: 100%;
 	height: 30px;
 }
+
+
+
+#navigation a:hover{
+color: #92c3e1;
+
+}
+
 
 #navigation a{
 	
@@ -89,7 +97,7 @@ section p{
 	flex: 2;
 	color: white;
 	height: 200px;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-weight: lighter;
 	font-style: italic;
 	padding-left: 30px;
