@@ -13,7 +13,7 @@ body{
 }
 
 #bloc_page{
-	width: 950px;
+	width: 850px;
 	margin: auto;
 
 }
@@ -34,25 +34,21 @@ header{
 }
 
 
-header img{
-
-
+.EN9100 ,.EN9001 {
+	height: 60px;
+	width: 64px;
+	margin-top: 10px;
 }
-
 .bouton_contact{
 margin-top: 65px;
-margin-bottom: 0px;
-background-color: #5c5252;
+padding: 0px 3px;
+background-color: #243543;
 color: white;
 font-style: italic;
-height: 18px;
-width: 55px;
+height: 17px;
+width: 45px;
 text-decoration: none;
-font-size: 0.9em;
-
-
-
-
+font-size: 0.8em;
 
 }
 
@@ -87,7 +83,7 @@ margin-top: 0px;
 margin-bottom: 0px;
 color: white;
 text-align: center;
-font-size: 0.7em;
+font-size: 0.6em;
 padding-top: 10px;
 width: 16%;
 font-family:  Arial, Verdana, helvetica, sans-serif ;
@@ -98,7 +94,7 @@ background: url(images/separateur.jpg) no-repeat;
 margin: auto;
 color: white;
 text-align: center;
-font-size: 0.7em;
+font-size: 0.6em;
 width: 16%;
 font-family:  Arial, Verdana, helvetica, sans-serif ;
 }
@@ -106,7 +102,7 @@ font-family:  Arial, Verdana, helvetica, sans-serif ;
 .presentation{	
 color: white;
 text-align: center;
-font-size: 0.7em;
+font-size: 0.6em;
 margin: auto;
 width: 16%;
 font-family:  Arial, Verdana, helvetica, sans-serif ;
