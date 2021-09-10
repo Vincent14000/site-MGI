@@ -39,6 +39,7 @@ header{
 	width: 64px;
 	margin-top: 10px;
 }
+
 .bouton_contact{
 margin-top: 65px;
 padding: 0px 3px;
@@ -110,5 +111,32 @@ font-family:  Arial, Verdana, helvetica, sans-serif ;
 
 article{
 	background-color: white;
-	padding: 30px 80px;
+	padding: 30px 60px;
+	font-size: 0.8em;
+	font-family:  Arial, Verdana, helvetica, sans-serif ;
+	color: #524E4E;
+}
+
+.crpq{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#details{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#details ul{
+	text-align: initial;
+	padding-left: 300px;
+	margin: 30px 0px;
+	list-style-type: none;	
+}
+
+footer{
+
+	background-color: skyblue;
 }
