@@ -112,13 +112,13 @@ font-family:  Arial, Verdana, helvetica, sans-serif ;
 article{
 	background-color: white;
 	padding: 30px 60px;
-	font-size: 0.8em;
-	font-family:  Arial, Verdana, helvetica, sans-serif ;
+	font-size: 0.7em;
+	font-family:  Verdana, Arial, helvetica, sans-serif;
 	color: #524E4E;
 }
 
 .crpq{
-
+	margin-top: 20px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.1em;
@@ -137,6 +137,30 @@ article{
 }
 
 footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #19CCFF;
+}
 
-	background-color: skyblue;
+footer ul{
+padding-left: 10px;
+padding-bottom: 20px;
+ list-style-type: none;
+ color: whitesmoke;
+ font-size: 0.7em;
+
+}
+
+footer li{
+margin-left: 0px;
+
+}
+.contact2{
+	padding-top: 10px;
+	padding-right: 10px;
+	height: 15px;
+	text-decoration: none;
+ 	color: whitesmoke;
+ 	 font-size: 0.7em;
+
 }
