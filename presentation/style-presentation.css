@@ -41,23 +41,21 @@ header{
 }
 
 .bouton_contact{
-margin-top: 65px;
-padding: 0px 3px;
-background-color: #243543;
-color: white;
-font-style: italic;
-height: 17px;
-width: 45px;
-text-decoration: none;
-font-size: 0.8em;
+	margin-top: 65px;
+	padding: 0px 3px;
+	background-color: #243543;
+	color: white;
+	font-style: italic;
+	height: 17px;
+	width: 45px;
+	text-decoration: none;
+	font-size: 0.8em;
 
 }
 
 
-
-
 #navigation a:hover{
-color: #92c3e1;
+	color: #92c3e1;
 
 }
 
@@ -79,34 +77,34 @@ color: #92c3e1;
 }
 
 .usinage,.prg,.controle,.real{
-background: url(images/separateur.jpg) no-repeat;	
-margin-top: 0px;
-margin-bottom: 0px;
-color: white;
-text-align: center;
-font-size: 0.6em;
-padding-top: 10px;
-width: 16%;
-font-family:  Arial, Verdana, helvetica, sans-serif ;
+	background: url(images/separateur.jpg) no-repeat;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+	text-align: center;
+	font-size: 0.6em;
+	padding-top: 10px;
+	width: 16%;
+	font-family:  Arial, Verdana, helvetica, sans-serif ;
 }
 
 .tour{
-background: url(images/separateur.jpg) no-repeat;	
-margin: auto;
-color: white;
-text-align: center;
-font-size: 0.6em;
-width: 16%;
-font-family:  Arial, Verdana, helvetica, sans-serif ;
+	background: url(images/separateur.jpg) no-repeat;	
+	margin: auto;
+	color: white;
+	text-align: center;
+	font-size: 0.6em;
+	width: 16%;
+	font-family:  Arial, Verdana, helvetica, sans-serif ;
 }
 
 .presentation{	
-color: white;
-text-align: center;
-font-size: 0.6em;
-margin: auto;
-width: 16%;
-font-family:  Arial, Verdana, helvetica, sans-serif ;
+	color: white;
+	text-align: center;
+	font-size: 0.6em;
+	margin: auto;
+	width: 16%;
+	font-family:  Arial, Verdana, helvetica, sans-serif ;
 }
 
 article{
