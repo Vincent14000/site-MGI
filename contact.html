@@ -37,48 +37,40 @@
                 <p>Vous pouvez aussi remplir le formulaire ci-dessous, nous vous répondrons dans les plus brefs délais :</p>
                 <form method="post" action="traitement.php">
 
-                    <p>
-                        <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom" />
-                    </p>
-                    <p>
-                        <label for="Prenom">Prénom</label>
-                        <input type="text" name="Prenom" id="Prenom" />
-                    </p>
-                    <p>
-                        <label for="societe">Société</label>
-                        <input type="text" name="societe" id="societe" />
-                    </p>
-                    <p>
-                        <label for="email">E-mail *</label>
-                        <input type="email" name="email" id="email" />
-                    </p>
-                    <p>
-                        <label for="Adresse">Adresse</label>
-                        <textarea name="Adresse" id="Adresse"></textarea>
-                    </p>
-                    <p>
-                        <label for="postal">Code postal</label>
-                        <input type="text" name="postal" id="postal" />
-                    </p>
-                    <p>
-                        <label for="Ville">Ville</label>
-                        <input type="text" name="Ville" id="Ville" />
-                    </p>
-                    <p>
-                        <label for="tel">Tél.</label>
-                        <input type="tel" name="tel" id="tel" />
-                    </p>
-                    <p>
-                        <label for="Fax">Fax</label>
-                        <input type="text" name="Fax" id="Fax" />
-                    </p>
-                    <p>
-                        <label for="message">Votre message *</label>
-                        <textarea name="message" id="message"></textarea>
-                    </p>
+                    
+                        <label for="nom" class="formulaire_texte">Nom</label>
+                        <input type="text" name="nom" id="nom" /><br/>
+
+                        <label for="Prenom" class="formulaire_texte">Prénom</label>
+                        <input type="text" name="Prenom" id="Prenom" /><br/>
+
+                        <label for="societe" class="formulaire_texte">Société</label>
+                        <input type="text" name="societe" id="societe" /><br/>
+
+                        <label for="email"class="formulaire_texte">E-mail *</label>
+                        <input type="email" name="email" id="email" /><br/>
+
+                        <label for="Adresse" class="formulaire_texte">Adresse</label>
+                        <textarea name="Adresse" id="Adresse" ></textarea><br/>
+
+                        <label for="postal" class="formulaire_texte">Code postal</label>
+                        <input type="text" name="postal" id="postal" /><br/>
+
+                        <label for="Ville" class="formulaire_texte">Ville</label>
+                        <input type="text" name="Ville" id="Ville" /><br/>
+
+                        <label for="tel" class="formulaire_texte">Tél.</label>
+                        <input type="tel" name="tel" id="tel" /><br/>
+
+                        <label for="Fax" class="formulaire_texte">Fax</label>
+                        <input type="text" name="Fax" id="Fax" /><br/>
+
+                        <label for="message" class="formulaire_texte">Votre message *</label>
+                        <textarea name="message" id="message"></textarea><br/>
                     
                     <p>Code de sécurité *</p>
+
+                    <input type="submit" value="Envoyer" id="envoyer" />
                  </form>
                 
                 </article>
