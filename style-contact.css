@@ -127,6 +127,12 @@ label
 	font-size: 1em;
 }
 
+#adresse_1{
+	display: flex;
+	flex-direction: column;
+
+}
+
 
 
 #nom,#Prenom,#societe,#email,#Adresse,#postal,#Ville,#tel,#Fax,#message{
